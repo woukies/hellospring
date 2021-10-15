@@ -3,8 +3,8 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 	
-	<bean id="calculator" class="io.github.woukies.Calculator"></bean>
-	<bean id="myCalculator" class="io.github.woukies.MyCalculator">
+	<bean id="calculator" class="io.github.woukies.ex3_2.Calculator"></bean>
+	<bean id="myCalculator3" class="io.github.woukies.ex3_2.MyCalculator">
 		<property name="calculator">
 			<ref bean="calculator"/>
 		</property>

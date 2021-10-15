@@ -3,12 +3,12 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 	
-	<bean id="circle" class="io.github.woukies.q3_1.Circle"></bean>
-	<bean id="myCircle" class="io.github.woukies.q3_1.MyCircle">
-		<property name="circle">
-			<ref bean="circle"/>
+	<bean id="season" class="io.github.woukies.q3_3.Season"></bean>
+	<bean id="mySeason" class="io.github.woukies.q3_3.MySeason">
+		<property name="season">
+			<ref bean="season"/>
 		</property>
-		<property name="radius" value="10"></property>
+		<property name="month" value="9"></property>
 	</bean>
 
 </beans>
