@@ -1,4 +1,4 @@
-package io.github.woukies.ex;
+package io.github.woukies.ex2_1;
 
 public class MainCalculation {
 	public static void main(String[] args) {
