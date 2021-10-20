@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beansProjectDescription>
 	<version>1</version>
-	<pluginVersion><![CDATA[3.9.18.202109140629-RELEASE]]></pluginVersion>
+	<pluginVersion><![CDATA[3.9.18.202109140834-RELEASE]]></pluginVersion>
 	<configSuffixes>
 		<configSuffix><![CDATA[xml]]></configSuffix>
 	</configSuffixes>
 	<enableImports><![CDATA[true]]></enableImports>
 	<configs>
-		<config>src/main/resources/won2DollarCTX.xml</config>
-		<config>src/main/resources/threeCTX.xml</config>
-		<config>src/main/resources/myInfoCTX.xml</config>
-		<config>src/main/resources/studentCTX.xml</config>
-		<config>src/main/resources/pencilCTX.xml</config>
-		<config>src/main/resources/circleCTX.xml</config>
-		<config>src/main/resources/q5_1/circleCTX.xml</config>
-		<config>src/main/resources/ex6_1/applicationCTX.xml</config>
+		<config>src/main/resources/ex6_3/applicationCTX.xml</config>
+		<config>src/main/resources/q6_1/employeeCTX.xml</config>
+		<config>src/main/resources/q6_1/employeeCTX2.xml</config>
+		<config>src/main/resources/q6_2/professorCTX.xml</config>
+		<config>src/main/resources/q6_2/professorCTX2.xml</config>
+		<config>src/main/resources/q6_3/singerCTX.xml</config>
+		<config>src/main/resources/q6_3/singerCTX2.xml</config>
+		<config>src/main/resources/q6_4/animationCTX.xml</config>
+		<config>src/main/resources/q6_4/animationCTX2.xml</config>
+		<config>src/main/resources/q6_5/nasdaqCTX.xml</config>
+		<config>src/main/resources/q6_5/nasdaqCTX2.xml</config>
 	</configs>
 	<autoconfigs>
 		<config>src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml</config>
