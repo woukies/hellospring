@@ -18,6 +18,11 @@
 		<config>src/main/resources/q6_4/animationCTX2.xml</config>
 		<config>src/main/resources/q6_5/nasdaqCTX.xml</config>
 		<config>src/main/resources/q6_5/nasdaqCTX2.xml</config>
+		<config>src/main/resources/ex7_2/applicationCTX.xml</config>
+		<config>src/main/resources/ex8_1/applicationCTX.xml</config>
+		<config>src/main/resources/ex8_3_1/applicationCTX_dev.xml</config>
+		<config>src/main/resources/ex8_3_1/applicationCTX_run.xml</config>
+		<config>src/main/resources/q8_1/applicationCTX.xml</config>
 	</configs>
 	<autoconfigs>
 		<config>src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml</config>
