@@ -23,6 +23,9 @@
 		<config>src/main/resources/ex8_3_1/applicationCTX_dev.xml</config>
 		<config>src/main/resources/ex8_3_1/applicationCTX_run.xml</config>
 		<config>src/main/resources/q8_1/applicationCTX.xml</config>
+		<config>src/main/resources/q8_3/oracleCTX.xml</config>
+		<config>src/main/resources/q8_4/applicationCTX.xml</config>
+		<config>src/main/resources/ex9_1/applicationCTX.xml</config>
 	</configs>
 	<autoconfigs>
 		<config>src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml</config>
