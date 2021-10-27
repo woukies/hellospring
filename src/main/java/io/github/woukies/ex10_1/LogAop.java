@@ -1,8 +1,17 @@
-package io.github.woukies.ex9_1;
+package io.github.woukies.ex10_1;
 
 import org.aspectj.lang.ProceedingJoinPoint;
+import org.aspectj.lang.annotation.Around;
+import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Pointcut;
 
+@Aspect
 public class LogAop {
+	@Pointcut("within(io.github.woukies.ex10_1.*)")
+	private void pointcutMethod() {
+	}
+	
+	@Around("pointcutMethod()")
 	public Object loggerAop(ProceedingJoinPoint joinPoint) throws Throwable {
 		// joinPoint: 공통 기능 적용 대상
 		// 핵심기능 클래스의 메소드 정보를 가지고 옴
