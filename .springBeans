@@ -27,10 +27,9 @@
 		<config>src/main/resources/q8_4/applicationCTX.xml</config>
 		<config>src/main/resources/ex9_1/applicationCTX.xml</config>
 		<config>src/main/resources/q9_1/applicationCTX.xml</config>
+		<config>src/main/resources/p1207/evenNumberCTX.xml</config>
 	</configs>
 	<autoconfigs>
-		<config>src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml</config>
-		<config>src/main/webapp/WEB-INF/spring/root-context.xml</config>
 	</autoconfigs>
 	<configSets>
 	</configSets>
